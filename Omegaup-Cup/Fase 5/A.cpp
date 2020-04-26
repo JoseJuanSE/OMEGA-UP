@@ -1,3 +1,54 @@
+/*
+Atsa y la serie recursiva
+
+Descripción
+A Atsa le gusta mucho jugar con arreglos. Esta vez decidió trabajar con en siguiente.
+
+Comenzó con H0:=[1]
+Luego para obtener H1 concatenó H0 + [2] + H0. Así H1:=[1,2,1]
+Y así sucesivamente. De manera que Hi:=Hi−1 + [2i] + Hi−1.
+Ese proceso lo continuó infinitamente hasta obtener el arreglo H=[1,2,1,4,1,2,1,8,...].
+
+Después se le ocurrió que sería interesante calcular la suma de los elementos en un subarreglo.
+
+Entrada
+La primera línea contiene el número Q de sumas que debes calcular.
+
+Cada una de las siguientes Q líneas contiene dos enteros ai y bi.
+
+Salida
+Imprime Q números separados uno en cada línea.
+
+El i-ésimo número deberá ser igual a suma de los elementos en el intervalo [ai,bi].
+
+Ejemplo 1
+Entrada	
+1
+3 6
+Salida		
+8
+
+Explicación
+1,2,[1,4,1,2],1,8,...
+1 + 4 + 1 + 2 = 8
+
+Ejemplo 2
+Entrada: 
+3
+176 177
+5 9
+12 40
+	
+Salida: 
+17
+13
+108
+
+Límites
+1≤Q≤10^4
+1≤ai≤bi≤10^15
+*/
+//SOL:
 #include<bits/stdc++.h>
 #define ull unsigned long long
 using namespace std;
