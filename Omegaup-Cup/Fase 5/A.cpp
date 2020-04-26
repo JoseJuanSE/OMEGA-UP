@@ -3,9 +3,9 @@
 using namespace std;
 ull get(ull x){return x?get(x/2)+1:0;}
 ull po(ull a,ull p){
-	ull res=1;
-	while(p){
-      if(p&1)res*=a;
+    ull res=1;
+    while(p){
+			if(p&1)res*=a;
       a*=a;
       p>>=1;
    }
