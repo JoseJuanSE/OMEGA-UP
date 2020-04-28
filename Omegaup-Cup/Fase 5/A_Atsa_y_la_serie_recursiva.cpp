@@ -50,7 +50,8 @@ Límites
 */
 //SOL:
 #include<bits/stdc++.h>
-#define ull unsigned long long
+//cambio de prueba
+typedef ull unsigned long long
 using namespace std;
 ull get(ull x){return x?get(x/2)+1:0;}
 ull po(ull a,ull p){
