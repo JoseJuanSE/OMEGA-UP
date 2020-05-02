@@ -6,7 +6,7 @@ A Atsa le gusta mucho jugar con arreglos. Esta vez decidió trabajar con en sigu
 
 Comenzó con H0:=[1]
 Luego para obtener H1 concatenó H0 + [2] + H0. Así H1:=[1,2,1]
-Y así sucesivamente. De manera que Hi:=Hi−1 + [2i] + Hi−1.
+Y así sucesivamente. De manera que Hi:=Hi−1 + [2^i] + Hi−1.
 Ese proceso lo continuó infinitamente hasta obtener el arreglo H=[1,2,1,4,1,2,1,8,...].
 
 Después se le ocurrió que sería interesante calcular la suma de los elementos en un subarreglo.
